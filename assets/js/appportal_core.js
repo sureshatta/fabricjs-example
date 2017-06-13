@@ -83,7 +83,7 @@ middlePanel.style.height = newHeight + 'px';
 /************section-2 t-shirt bg*******************/
 var itemsList = document.getElementById("ap_product_image");
 var newHeight = leftPanel.offsetHeight - 208 ;
-itemsList.style.height = newHeight + 'px';
+//itemsList.style.height = newHeight + 'px';
 
 /************section-3*******************/
 var rightPanel = document.getElementById("ap_layers_right");

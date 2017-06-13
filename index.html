@@ -8,6 +8,12 @@
       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
       <link type="text/css" rel="stylesheet" href="assets/css/font-awesome.css">
       <script src="assets/js/jquery-2.2.4.min.js"></script>
+	  <script src="assets/js/main.js"></script>
+	  <script src="assets/js/fabric.js"></script>
+	   <script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/1.2.1/lodash.min.js"></script>
+	   
+	  
+	  
    </head>
    <body>
       <div class="ap_content_wrapper">
@@ -743,13 +749,17 @@
                   <li><img src="images/products/T-leftside.jpg" class="ap_img-resposive"></li>
                   <li><img src="images/products/T-rightside.jpg" class="ap_img-resposive"></li>
                </ul>
-               <div class="ap_product_img" id="ap_product_image">
+			   
+			   <canvas id="artcanvas" width="500" height="500"></canvas>
+			   <canvas id="innerCanvas"></canvas>
+
+               <!--<div class="ap_product_img" id="ap_product_image">
                   <div class="product_shapes">
                      <img src="images/all_shapes/1.png">
                      <img src="images/all_shapes/2.png">
                      <img src="images/all_shapes/3.png">
                   </div>
-               </div>
+               </div> -->
             </div>
          </section>
          <section class="ap_layers" id="ap_layers_right">
