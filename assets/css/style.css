@@ -32,6 +32,54 @@ body {
     font-weight: normal;
     font-style: normal;
     }
+@font-face{
+  src: url('../fonts/alexbrush/AlexBrush-Regular.ttf') format('truetype');
+   font-family: 'AlexBrush-Regular';
+}
+@font-face{
+  src: url('../fonts/alegreya-sc/AlegreyaSC-BlackItalic.ttf') format('truetype');
+   font-family: 'AlegreyaSC-BlackItalic';
+}
+@font-face{
+  src: url('../fonts/alex-brush/AlexBrush-Regular.ttf') format('truetype');
+   font-family: 'AlexBrush-Regular';
+}
+@font-face{
+  src: url('../fonts/alfa-slab-one/AlfaSlabOne-Regular.ttf') format('truetype');
+   font-family: 'AlfaSlabOne-Regular';
+}
+@font-face{
+  src: url('../fonts/allan/Allan-Bold.ttf') format('truetype');
+   font-family: 'Allan-Bold';
+}
+@font-face{
+  src: url('../fonts/allan/Allan-Bold.ttf') format('truetype');
+   font-family: 'Allura-Regular';
+}
+@font-face{
+  src: url('../fonts/amarante/Amarante-Regular.ttf') format('truetype');
+   font-family: 'Amarante-Regular';
+}
+@font-face{
+  src: url('../fonts/anton/Anton.ttf') format('truetype');
+   font-family: 'Anton';
+}
+@font-face{
+  src: url('../fonts/architects-daughter/ArchitectsDaughter.ttf') format('truetype');
+   font-family: 'ArchitectsDaughter';
+}
+@font-face{
+  src: url('../fonts/bad-script/BadScript-Regular.ttf') format('truetype');
+   font-family: 'BadScript-Regular';
+}
+@font-face{
+  src: url('../fonts/bangers/Bangers.ttf') format('truetype');
+   font-family: 'Bangers';
+}
+@font-face{
+  src: url('../fonts/butcherman/Butcherman-Regular.ttf') format('truetype');
+   font-family: 'Butcherman-Regular';
+}
 .moon {
     display: inline-block;
     font: normal normal normal 14px/1 moon;
@@ -383,10 +431,11 @@ display: none;
     width: 100%;
 }
 .ap_img-responsive {
-           display: block;
+    display: block;
     margin: 8px auto;
     max-width: 100%;
     width: auto;
+    float:left;
 }
 .ap_edit_tools {
     display: inline-block;
@@ -500,15 +549,27 @@ ul#ap_tools_list li i {
     width: 100%;
     height: 100%;
 }
-.ap_layers_rectangle_1 {
+.ap_layers_rectangle {
     width: 100%;
-    height: 62px;
     float: left;
     background-color: #d8dde0;
+     border: 1px solid #ffffff;
 }
+.ap_layers_rectangle {
+    width: 100%;
+    height: 90px;
+    font-size: 65px;
+    float: left;
+    background-color: #d8dde0;
+     border: 1px solid #ffffff;
+}
+
+.textlayer{
+    float: left;
+}
+
 .ap_layers_rectangle_2 {
     width: 100%;
-    height: 57px;
     float: left;
     background-image: linear-gradient(to top, #ffffff 48%, #cfcfcf);
     border: 1px solid #ffffff;
@@ -519,11 +580,11 @@ ul#ap_tools_list li i {
     float: left;
     background-color: #d8dde0;
 }
-.ap_layers_rectangle_1 > img,
+.ap_layers_rectangle > img,
 .ap_layers_rectangle_2 > img,
 .ap_layers_rectangle_3 > img {
-    display: block;
-    padding: 15px;
+    
+     
     vertical-align: middle;
 }
 .ap_layers_rectangle_0 {
@@ -1460,5 +1521,32 @@ text-align: center;
 }
 #artcanvas{
   background-color: #EBE3E1;
+}
+
+.ap_fonts_defined ul{
+      float: left;
+   padding: 2px 6px;
+   width: 100%;
+   text-align: left;
+ }
+ .ap_fonts_defined ul li{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 2px 2px;
+  display: block;
+ 
+ }
+
+ .ap_upload_fonts .ap_select {
+    display: inline-block;
+    height: auto;
+    position: relative;
+    width: 172px;
+    cursor: pointer;
+    margin: 0;
+    width: 100%!important;
+}
+.delete{
+    float: right;
 }
 
